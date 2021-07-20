@@ -8,7 +8,7 @@ class MailSender {
       secure: true,
       auth: {
         user: process.env.MAIL_ADDRESS,
-        pass: "Dicoding25",
+        pass: process.env.MAIL_PASSWORD,
       },
     });
   }
